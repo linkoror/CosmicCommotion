@@ -1,0 +1,9 @@
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\bin\Debug\CosmicCommotion.exe.config
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\bin\Debug\CosmicCommotion.exe
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\bin\Debug\CosmicCommotion.pdb
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.csproj.AssemblyReference.cache
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.Properties.Resources.resources
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.csproj.GenerateResource.cache
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.csproj.CoreCompileInputs.cache
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.exe
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.pdb

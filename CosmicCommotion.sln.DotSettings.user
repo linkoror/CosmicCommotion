@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0403dacc_002Dcd5c_002D420b_002Daddd_002Dfeb988920f4c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestShipHitByAsteroid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.SpaceShipGameTests.TestShipHitByAsteroid&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e6d424b_002Df806_002D4a34_002Db7e8_002D5f20a7d6f59a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=85fbb0ac_002D9d57_002D460b_002D9a18_002D5b0e5cd9be67/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SpaceShipGameTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.SpaceShipGameTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91715492_002D3896_002D450b_002Dbd57_002Da676ac8c208a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestShipMovesUp" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.SpaceShipGameTests.TestShipMovesUp&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,12 @@
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\Test.dll
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\Test.pdb
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\CosmicCommotion.exe
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\nunit.framework.dll
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\CosmicCommotion.pdb
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\CosmicCommotion.exe.config
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\bin\Debug\nunit.framework.xml
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\obj\Debug\Test.csproj.Up2Date
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\obj\Debug\Test.dll
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\Test\obj\Debug\Test.pdb

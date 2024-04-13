@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmicCommotion", "CosmicCommotion\CosmicCommotion.csproj", "{68AEA92C-E744-4E0A-A643-10699E7A632B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{68AEA92C-E744-4E0A-A643-10699E7A632B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68AEA92C-E744-4E0A-A643-10699E7A632B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68AEA92C-E744-4E0A-A643-10699E7A632B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
