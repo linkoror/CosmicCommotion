@@ -12,6 +12,7 @@ public class SpaceShip
     public int Score { get; set; }
     public int Level { get; private set; }
     public bool IsDestroyed { get; private set; }
+    public int Size { get; private set; }
 
     public SpaceShip(int x, int y, int speed, int health)
     {
@@ -98,5 +99,14 @@ public class SpaceShip
     {
         // Проверяем, находится ли корабль за пределами игрового поля
         return X < 0 || X >= maxX || Y < 0 || Y >= maxY;
+    }
+    
+    public void TakeDamage(int damage)
+    {
+        Size -= damage;
+        if (Size <= 0)
+        {
+            Destroy();
+        }
     }
 }

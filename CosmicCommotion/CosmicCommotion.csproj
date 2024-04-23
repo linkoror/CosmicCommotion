@@ -48,15 +48,41 @@
     <ItemGroup>
         <Compile Include="Model\Asteroid.cs" />
         <Compile Include="Model\Bonus.cs" />
+        <Compile Include="Model\Game.cs" />
+        <Compile Include="Model\GameStation.cs" />
         <Compile Include="Model\SpaceShip.cs" />
         <Compile Include="Model\Star.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="View\FinishedControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="View\FinishedControl.Designer.cs">
+          <DependentUpon>FinishedControl.cs</DependentUpon>
+        </Compile>
         <Compile Include="View\Form1.cs">
           <SubType>Form</SubType>
         </Compile>
         <Compile Include="View\Form1.Designer.cs">
           <DependentUpon>Form1.cs</DependentUpon>
+        </Compile>
+        <Compile Include="View\GameControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="View\GameControl.Designer.cs">
+          <DependentUpon>GameControl.cs</DependentUpon>
+        </Compile>
+        <Compile Include="View\RulesGameControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="View\RulesGameControl.Designer.cs">
+          <DependentUpon>RulesGameControl.cs</DependentUpon>
+        </Compile>
+        <Compile Include="View\StartControl.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="View\StartControl.Designer.cs">
+          <DependentUpon>StartControl.cs</DependentUpon>
         </Compile>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +93,9 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="View\StartControl.resx">
+          <DependentUpon>StartControl.cs</DependentUpon>
+        </EmbeddedResource>
         <None Include="Properties\Settings.settings">
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,7 +110,11 @@
         <None Include="App.config"/>
     </ItemGroup>
     <ItemGroup>
+      <Folder Include="bin\" />
       <Folder Include="Controller\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Resources\MainBackground.jpg" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>

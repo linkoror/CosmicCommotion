@@ -7,3 +7,4 @@ C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicC
 C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.csproj.CoreCompileInputs.cache
 C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.exe
 C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.pdb
+C:\Users\Kexs\Documents\csharp\CosmicCommotion\CosmicCommotion\obj\Debug\CosmicCommotion.StartControl.resources
