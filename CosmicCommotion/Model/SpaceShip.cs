@@ -13,6 +13,8 @@ public class SpaceShip
     public int Level { get; private set; }
     public bool IsDestroyed { get; private set; }
     public int Size { get; private set; }
+    public bool IsStarMagnetActive { get; set; }
+    public int WeaponDamage { get; set; }
 
     public SpaceShip(int x, int y, int speed, int health)
     {
@@ -23,10 +25,9 @@ public class SpaceShip
         IsShieldActive = false;
         Level = 1;
         IsDestroyed = false;
-        // Создаем и настраиваем таймер для щита
         shieldTimer = new Timer();
-        shieldTimer.Interval = 1000; // Интервал в миллисекундах (здесь 1 секунда)
-        shieldTimer.Tick += new EventHandler(ShieldTimer_Tick); // Подключаем обработчик события Tick
+        shieldTimer.Interval = 1000;
+        shieldTimer.Tick += new EventHandler(ShieldTimer_Tick);
     }
 
     public void MoveUp()
@@ -39,25 +40,22 @@ public class SpaceShip
         if (!IsShieldActive)
         {
             IsShieldActive = true;
-            shieldTimer.Start(); // Запускаем таймер при активации щита
+            shieldTimer.Start();
         }
     }
 
     private void ShieldTimer_Tick(object sender, EventArgs e)
     {
-        IsShieldActive = false; // Выключаем щит по истечении времени таймера
-        shieldTimer.Stop(); // Останавливаем таймер
+        IsShieldActive = false;
+        shieldTimer.Stop();
     }
 
     public void Update()
     {
         if (IsShieldActive)
         {
-            // Логика для активного щита
+            
         }
-
-        // Логика обновления состояния корабля
-        // Например, проверка столкновений, перемещение или другие действия
     }
 
     public void Repair()
@@ -91,13 +89,11 @@ public class SpaceShip
 
     public bool CheckCollision(SpaceShip otherShip)
     {
-        // Проверяем столкновение с другим кораблем по координатам
         return X == otherShip.X && Y == otherShip.Y;
     }
 
     public bool CheckOutOfBounds(int maxX, int maxY)
     {
-        // Проверяем, находится ли корабль за пределами игрового поля
         return X < 0 || X >= maxX || Y < 0 || Y >= maxY;
     }
     
@@ -108,5 +104,25 @@ public class SpaceShip
         {
             Destroy();
         }
+    }
+
+    public void TeleportRandomly()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void UpgradeWeapon()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void ActivateTimeFreeze()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void RechargeShield()
+    {
+        throw new NotImplementedException();
     }
 }

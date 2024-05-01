@@ -7,15 +7,20 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e6d424b_002Df806_002D4a34_002Db7e8_002D5f20a7d6f59a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=85fbb0ac_002D9d57_002D460b_002D9a18_002D5b0e5cd9be67/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SpaceShipGameTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=85fbb0ac_002D9d57_002D460b_002D9a18_002D5b0e5cd9be67/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SpaceShipGameTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.SpaceShipGameTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91715492_002D3896_002D450b_002Dbd57_002Da676ac8c208a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestShipMovesUp" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91715492_002D3896_002D450b_002Dbd57_002Da676ac8c208a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestShipMovesUp" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.SpaceShipGameTests.TestShipMovesUp&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.AsteroidTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BDB0FDC-606D-4F26-B1C8-D42220F9ACE6::.NETFramework,Version=v4.8::Test.StarTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=CosmicCommotion_002FView_002FStartControl/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=CosmicCommotion_002FProperties_002FResources/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=CosmicCommotion_002FView_002FRulesGameControl/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=CosmicCommotion_002FView_002FStartControl/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>

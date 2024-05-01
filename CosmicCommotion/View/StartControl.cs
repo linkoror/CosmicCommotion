@@ -31,7 +31,7 @@ namespace CosmicCommotion
         
         private void GameRulesButton_Click(object sender, EventArgs e)
         {
-            game.Start();
+            game.GameRules();
         }
     }
 }

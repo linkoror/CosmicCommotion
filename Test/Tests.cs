@@ -178,4 +178,39 @@ namespace Test
             Assert.AreEqual(initialY + 1, asteroid.Y);
         }
     }
+    [TestFixture]
+    public class StarTests
+    {
+        [Test]
+        public void TestStarCollect()
+        {
+            Star star = new Star(0, 0, 100);
+
+            star.Collect();
+
+            Assert.IsTrue(star.IsCollected);
+        }
+
+        [Test]
+        public void TestStarDisappear()
+        {
+            Star star = new Star(0, 0, 100);
+
+            star.Disappear();
+
+            Assert.AreEqual(-100, star.X);
+            Assert.AreEqual(-100, star.Y);
+        }
+
+        [Test]
+        public void TestStarCheckCollisionWithSpaceShip()
+        {
+            Star star = new Star(5, 5, 100);
+            SpaceShip spaceShip = new SpaceShip(5, 5, 1, 3);
+
+            bool collisionResult = star.CheckCollisionWithSpaceShip(spaceShip);
+
+            Assert.IsTrue(collisionResult);
+        }
+    }
 }

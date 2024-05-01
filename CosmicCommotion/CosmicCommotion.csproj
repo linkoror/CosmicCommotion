@@ -48,6 +48,7 @@
     <ItemGroup>
         <Compile Include="Model\Asteroid.cs" />
         <Compile Include="Model\Bonus.cs" />
+        <Compile Include="Model\BonusManager.cs" />
         <Compile Include="Model\Game.cs" />
         <Compile Include="Model\GameStation.cs" />
         <Compile Include="Model\SpaceShip.cs" />
@@ -93,6 +94,9 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="View\RulesGameControl.resx">
+          <DependentUpon>RulesGameControl.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="View\StartControl.resx">
           <DependentUpon>StartControl.cs</DependentUpon>
         </EmbeddedResource>

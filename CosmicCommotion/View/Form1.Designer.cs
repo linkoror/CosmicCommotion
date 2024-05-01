@@ -78,7 +78,7 @@
             this.Controls.Add(this.finishedControl);
             this.MaximumSize = new System.Drawing.Size(816, 639);
             this.MinimumSize = new System.Drawing.Size(816, 639);
-            this.Text = "Form1";
+            this.Text = "Космический переполох";
             this.ResumeLayout(false);
         }
 
